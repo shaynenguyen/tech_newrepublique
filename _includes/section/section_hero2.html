@@ -1,5 +1,5 @@
 <section class="slide-wrapper">
-    <div class="container-fluid">
+    <div class="">
         <div id="myCarousel" class="carousel slide">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -9,10 +9,10 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                <div class="item item1 active">
-                    <div class="fill">
+                <div class="item active">
+                    <div class="fill" style="background-image:url({{ site.baseurl }}/{{ page.hero-banners['banner1'].media }});">
                         <div class="inner-content">
-                            <div class="carousel-img">
+                            <div class="carouse1-img">
                                 <img src="{{ site.baseurl }}/{{ page.hero-banners['banner1'].media }}" alt="white-sofa" class="img img-responsive" />
                             </div>
                             <div class="carousel-desc">
@@ -24,8 +24,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="item item2">
-                    <div class="fill">
+                <div class="item">
+                    <div class="fill" style="background-image:url({{ site.baseurl }}/{{ page.hero-banners['banners'].media }});">
                         <div class="inner-content">
                             <div class="carouse1-img">
                                 <img src="{{ site.baseurl }}/{{ page.hero-banners['banner2'].media }}" alt="white-sofa" class="img img-responsive" />
