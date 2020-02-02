@@ -842,8 +842,16 @@ item3.active p {
         color: #999;
         border-bottom: none !important;
     }
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .right_panel {
         display: none;
+    }
+    .left_panel {
+        margin-left: 0;
+        width: 100%;
     }
     .middiv {
         padding-bottom: 100px;
@@ -851,5 +859,8 @@ item3.active p {
     }
     .no_padding_left_max_1024 {
         padding-left: 0;
+    }
+    .no_padding_right_max_1024 {
+        padding-right: 0;
     }
 }
