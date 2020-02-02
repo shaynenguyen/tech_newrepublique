@@ -1,0 +1,45 @@
+<section class="slide-wrapper">
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item item1 active">
+                    <div class="fill">
+                        <div class="inner-content">
+                            <div class="carousel-img">
+                                <img src="{{ site.baseurl }}/{{ page.hero-banners['banner1'].media }}" alt="white-sofa" class="img img-responsive" />
+                            </div>
+                            <div class="carousel-desc">
+
+                                <h2>{{ page.hero-banners['banner1'].heading }}</h2>
+                                <p>{{ page.hero-banners['banner1'].text }}</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item2">
+                    <div class="fill">
+                        <div class="inner-content">
+                            <div class="carouse1-img">
+                                <img src="{{ site.baseurl }}/{{ page.hero-banners['banner2'].media }}" alt="white-sofa" class="img img-responsive" />
+                            </div>
+                            <div class="carousel-desc">
+
+                                <h2>{{ page.hero-banners['banner2'].heading }}</h2>
+                                <p>{{ page.hero-banners['banner2'].text }}</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

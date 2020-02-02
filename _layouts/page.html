@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }} {{ site.title }}</title>
+    <!-- STYLESHEETS -->
+    {% include stylesheet.html %}
+</head>
+
+<body>
+    <!-- ---------------------------------------- -->
+    <!-- Main Layout -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="right_panel">
+                {% include logo.html %}
+                <!--  -->
+                {% include nav.html %}
+            </div>
+            <div class="left_panel">
+                <!-- LEFT MEDIA -->
+                {% include section/section_leftmedia.html %}
+
+                <br>
+
+                <!-- RIGHT MEDIA -->
+                {% include section/section_rightmedia.html %}
+
+                <!-- STAY IN TOUCH -->
+                {% include static/stayintouch.html %}
+
+                <!-- Footer -->
+                {% include footer.html %}
+            </div>
+        </div>
+    </div>
+    <!-- End Main Layout -->
+</body>
+<!-- ---------------------------------------- -->
+
+
+<!-- SCRIPTS -->
+{% include scripts.html %}
+
+</html>

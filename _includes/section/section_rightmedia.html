@@ -1,0 +1,23 @@
+<section class="control_heading control_text">
+    <div class="row columns">
+        <div class="large-6 column position_relative">
+            <div class="middiv" style="left: 5.875rem;">
+                <h2 class="h1_left_black hideme">
+                    {{ page.section-media['right'].heading }}
+                </h2>
+                <p>
+                    {{ page.section-media['right'].text }}
+                </p>
+                <p class="header_case_study_black">
+                    <a href="{{ site.baseurl }}{{page.section-media['right'].url }}">
+                                {{ page.section-media['left'].appear-link }}
+                            </a>
+                </p>
+            </div>
+        </div>
+        <div class="large-6 column no_padding_right hideme">
+            <!-- MEDIA CONTENT GOES HERE -->
+            <img src="{{ site.baseurl }}/{{ page.section-media['right'].media }}" alt="">
+        </div>
+    </div>
+</section>
