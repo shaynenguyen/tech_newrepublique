@@ -864,3 +864,15 @@ item3.active p {
         padding-right: 0;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .intouch_footer>div>div {
+        max-width: 320px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intouch_footer>div>div {
+        max-width: 100% !important;
+    }
+}
